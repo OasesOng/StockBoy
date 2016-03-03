@@ -54,14 +54,23 @@ Main components
 
 -------------------------------- */
 header {
+    /*
   position: relative;
   height: 200px;
   background: white;
   text-align: center;
   margin-bottom: 1em;
   padding-top: 3em;
-  background-image:url('http://cdn1.lomography.com/6c/91803618deefd082557fdd0f53e69a4ca1a646/382x256x2.jpg?auth=b5337f41bf48fd018da748eb2ca6562c42c32516');
-  background-repeat:     ; 
+  /*background-image:url('http://cdn1.lomography.com/6c/91803618deefd082557fdd0f53e69a4ca1a646/382x256x2.jpg?auth=b5337f41bf48fd018da748eb2ca6562c42c32516');
+  background-size: contain;
+  background-repeat:  no-repeat   ; 
+  */
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1em;
+  padding-top: 3em;
+  background-image: radial-gradient(1600px at 70% 120%, rgba(33, 39, 80, 1) 10%, #45A298 100%);
 }
 header #cd-logo {
   margin-bottom: 3em;
@@ -499,5 +508,70 @@ header h1 {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
+  }
+}
+/* Boy header*/
+#universe {
+  width: 100%;
+  height: 100%;
+}
+
+#footerContent {
+  font-family: sans-serif;
+  font-size: 110%;
+  color: rgba(200, 220, 255, .3);
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding: 20px;
+  text-align: center;
+  z-index: 20;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  height: 300px;
+  width: 100%;
+}
+
+#scene {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -800px;
+}
+
+/* CSS loader*/
+.loader:before, .loader:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border-style: solid;
+  border-top-color: #5C5470;
+  border-right-color: #FE7187;
+  border-bottom-color: #45A298;
+  border-left-color: #C6394D;
+  content: '';
+  transform: translate(-50%, -50%);
+  animation: rotate 2s  infinite ease-in-out;
+}
+.loader:before {
+  border-width: 10vh;
+}
+.loader:after {
+  width: 25vh;
+  height: 40vh;
+  border-width: 2.5vh;
+  animation-direction: reverse;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
