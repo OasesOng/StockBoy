@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StockBoyModel1StoreContainer" CdmEntityContainer="StockBoyEntities1">
+    <EntitySetMapping Name="Article">
+      <EntityTypeMapping TypeName="StockBoyModel1.Article">
+        <MappingFragment StoreEntitySet="Article">
+          <ScalarProperty Name="Article_id" ColumnName="Article_id" />
+          <ScalarProperty Name="Open_tag" ColumnName="Open_tag" />
+          <ScalarProperty Name="Article_Date" ColumnName="Article_Date" />
+          <ScalarProperty Name="Article_Title" ColumnName="Article_Title" />
+          <ScalarProperty Name="Article_Text" ColumnName="Article_Text" />
+          <ScalarProperty Name="Article_Img" ColumnName="Article_Img" />
+          <ScalarProperty Name="add_date" ColumnName="add_date" />
+          <ScalarProperty Name="edit_date" ColumnName="edit_date" />
+          <ScalarProperty Name="edit_ip" ColumnName="edit_ip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

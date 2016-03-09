@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="StockBoyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Article">
+          <Key>
+            <PropertyRef Name="Article_id" />
+          </Key>
+          <Property Name="Article_id" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Open_tag" Type="char" MaxLength="1" />
+          <Property Name="Article_Date" Type="datetime" />
+          <Property Name="Article_Title" Type="varchar" MaxLength="100" />
+          <Property Name="Article_Text" Type="ntext" />
+          <Property Name="Article_Img" Type="varchar" MaxLength="100" />
+          <Property Name="add_date" Type="datetime" />
+          <Property Name="edit_date" Type="datetime" />
+          <Property Name="edit_ip" Type="varchar" MaxLength="15" />
+        </EntityType>
+        <EntityContainer Name="StockBoyModelStoreContainer">
+          <EntitySet Name="Article" EntityType="Self.Article" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="StockBoyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Article">
+          <Key>
+            <PropertyRef Name="Article_id" />
+          </Key>
+          <Property Name="Article_id" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Open_tag" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="Article_Date" Type="DateTime" Precision="3" />
+          <Property Name="Article_Title" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Article_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Article_Img" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="add_date" Type="DateTime" Precision="3" />
+          <Property Name="edit_date" Type="DateTime" Precision="3" />
+          <Property Name="edit_ip" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="StockBoyEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Article" EntityType="Self.Article" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="StockBoyModelStoreContainer" CdmEntityContainer="StockBoyEntities">
+          <EntitySetMapping Name="Article">
+            <EntityTypeMapping TypeName="StockBoyModel.Article">
+              <MappingFragment StoreEntitySet="Article">
+                <ScalarProperty Name="Article_id" ColumnName="Article_id" />
+                <ScalarProperty Name="Open_tag" ColumnName="Open_tag" />
+                <ScalarProperty Name="Article_Date" ColumnName="Article_Date" />
+                <ScalarProperty Name="Article_Title" ColumnName="Article_Title" />
+                <ScalarProperty Name="Article_Text" ColumnName="Article_Text" />
+                <ScalarProperty Name="Article_Img" ColumnName="Article_Img" />
+                <ScalarProperty Name="add_date" ColumnName="add_date" />
+                <ScalarProperty Name="edit_date" ColumnName="edit_date" />
+                <ScalarProperty Name="edit_ip" ColumnName="edit_ip" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="無" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
