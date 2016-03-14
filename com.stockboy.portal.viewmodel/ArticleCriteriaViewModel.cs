@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace com.stockboy.portal.viewmodel
 {
-    [Serializable]
     public class ArticleCriteriaViewModel
     {
         public Decimal? Article_id { get; set; }
@@ -21,10 +20,12 @@ namespace com.stockboy.portal.viewmodel
 
         public String Article_Img { get; set; }
 
+        // 新增時間
         public DateTime? add_date { get; set; }
-
+        // 編輯時間
         public DateTime? edit_date { get; set; }
 
+        // 編輯人IP
         public String edit_ip { get; set; }
     }
 }

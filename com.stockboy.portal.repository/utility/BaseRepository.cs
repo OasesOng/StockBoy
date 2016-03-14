@@ -1,5 +1,4 @@
-﻿
-using Microsoft.Practices.EnterpriseLibrary.Data;
+﻿using Microsoft.Practices.EnterpriseLibrary.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +12,6 @@ namespace com.stockboy.portal.repository.utility
         protected string ConnectionStringName { get; set; }
 
         private DatabaseProviderFactory factory = new DatabaseProviderFactory();
-
 
         public BaseRepository()
         {

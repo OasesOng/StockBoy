@@ -1,8 +1,22 @@
-﻿
+﻿@model IEnumerable<com.stockboy.portal.viewmodel.ArticleViewModel>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Article-Index</h2>
+@foreach (var article in Model)
+{
+    <div class="list-group">
+        <div class="row">
+            <div class="">@article.Article_Title</div>
+            <div  class="">
+               @* <h3>@article.Article_Date.Value</h3>*@
+                <h3>
+                    @article.Article_Text
+                </h3>
+            </div>
+        </div>
+    </div>
 
+
+}

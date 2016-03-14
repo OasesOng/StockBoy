@@ -226,7 +226,6 @@
       <DependentUpon>StockBoy.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ArticleService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -279,7 +278,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -328,6 +329,16 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.stockboy.portal.service\com.stockboy.portal.service.csproj">
+      <Project>{972b9c6a-d996-4931-85ba-428981fa2b2d}</Project>
+      <Name>com.stockboy.portal.service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\com.stockboy.portal.viewmodel\com.stockboy.portal.viewmodel.csproj">
+      <Project>{b100872b-51d0-47a5-8285-69e90f569a7c}</Project>
+      <Name>com.stockboy.portal.viewmodel</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

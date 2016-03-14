@@ -15,12 +15,12 @@ namespace com.stockboy.portal.repository
         /// </summary>
         /// <param name="criteria"></param>
         /// <returns value = "result"></returns>
-        public IEnumerable<ArticleViewMoel> FetchArticleList(ArticleCriteriaViewModel criteria)
+        public IEnumerable<ArticleViewModel> FetchArticleList(ArticleCriteriaViewModel criteria)
         {
             // Base Sql
             String baseSelectQuery = @"SELECT  *
-                                       FROM Article 
-                                       WHERE Article.Open_tag = 0 {0} order by Article_Date desc ";
+                                       FROM Article ";
+                                  ///     WHERE Article.Open_tag = 0 {0} order by Article_Date desc ";
 
             ///Condition
             List<string> listCondition = new List<string>();
@@ -40,17 +40,22 @@ namespace com.stockboy.portal.repository
 
 
             //Execute
-            var result = Db.CreateConnection().Query<ArticleViewMoel>(baseSelectQuery, criteria);
+            var result = Db.CreateConnection().Query<ArticleViewModel>(baseSelectQuery, criteria);
 
             return result;
         }
 
+        /// <summary>
+        /// 取得文章數目
+        /// </summary>
+        /// <param name="Article_id"></param>
+        /// <returns></returns>
         public int FetchArticleCount(decimal? Article_id)
         {
             //Base Sql 
             String baseSelectQuery = @"SELECT count(*)
                                                  FROM Article 
-                                                 WHERE Article.Open_tag = 0 {0} " ;
+                                                 WHERE Article.Open_tag = 0 {0} ";
 
             ///Condition
             List<string> listCondition = new List<string>();
@@ -73,5 +78,7 @@ namespace com.stockboy.portal.repository
 
             return result;
         }
+
+
     }
 }

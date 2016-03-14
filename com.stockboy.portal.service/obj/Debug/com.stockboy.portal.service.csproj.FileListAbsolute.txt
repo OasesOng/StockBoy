@@ -1,0 +1,16 @@
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\com.stockboy.portal.service.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\com.stockboy.portal.service.pdb
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\com.stockboy.portal.repository.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\com.stockboy.portal.viewmodel.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\Dapper.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\com.stockboy.portal.repository.pdb
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\com.stockboy.portal.viewmodel.pdb
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\Dapper.pdb
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\Dapper.xml
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\obj\Debug\com.stockboy.portal.service.csprojResolveAssemblyReference.cache
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\obj\Debug\com.stockboy.portal.service.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\obj\Debug\com.stockboy.portal.service.pdb

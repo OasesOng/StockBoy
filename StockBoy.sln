@@ -7,26 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockBoy", "StockBoy\StockB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Data Access Layer", "1.Data Access Layer", "{9180B376-4589-404D-A2B1-58EE560C820B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.repository", "StockBoy.repository\com.stockboy.portal.repository.csproj", "{EC818C2B-4545-4662-8253-B907CBCE9E3A}"
-	ProjectSection(ProjectDependencies) = postProject
-		{31DDD4CB-ABCF-47B9-9B2B-C90067C275B7} = {31DDD4CB-ABCF-47B9-9B2B-C90067C275B7}
-		{5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2} = {5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2}
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Bussiness Logic Layer", "2.Bussiness Logic Layer", "{3C09BA75-6222-486C-A2C1-FBA5333742E7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.service", "StockBoy.Service\com.stockboy.portal.service.csproj", "{C64F5AA3-D614-48FE-89CC-41379B807773}"
-	ProjectSection(ProjectDependencies) = postProject
-		{EC818C2B-4545-4662-8253-B907CBCE9E3A} = {EC818C2B-4545-4662-8253-B907CBCE9E3A}
-		{31DDD4CB-ABCF-47B9-9B2B-C90067C275B7} = {31DDD4CB-ABCF-47B9-9B2B-C90067C275B7}
-		{5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2} = {5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2}
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{FD500C4A-D76F-47BD-9EAA-FD5A418DB43A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.domain", "StockBoy.domain\com.stockboy.portal.domain.csproj", "{31DDD4CB-ABCF-47B9-9B2B-C90067C275B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.repository", "com.stockboy.portal.repository\com.stockboy.portal.repository.csproj", "{866BA881-AC5D-4DE9-942F-307D12080E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.viewmodel", "StockBoy.viewmodel\com.stockboy.portal.viewmodel.csproj", "{5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.viewmodel", "com.stockboy.portal.viewmodel\com.stockboy.portal.viewmodel.csproj", "{B100872B-51D0-47A5-8285-69E90F569A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.service", "com.stockboy.portal.service\com.stockboy.portal.service.csproj", "{972B9C6A-D996-4931-85BA-428981FA2B2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,31 +27,26 @@ Global
 		{9DB56838-B22C-4D05-BA59-84B48D7E5B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DB56838-B22C-4D05-BA59-84B48D7E5B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DB56838-B22C-4D05-BA59-84B48D7E5B46}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC818C2B-4545-4662-8253-B907CBCE9E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC818C2B-4545-4662-8253-B907CBCE9E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC818C2B-4545-4662-8253-B907CBCE9E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC818C2B-4545-4662-8253-B907CBCE9E3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C64F5AA3-D614-48FE-89CC-41379B807773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C64F5AA3-D614-48FE-89CC-41379B807773}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C64F5AA3-D614-48FE-89CC-41379B807773}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C64F5AA3-D614-48FE-89CC-41379B807773}.Release|Any CPU.Build.0 = Release|Any CPU
-		{31DDD4CB-ABCF-47B9-9B2B-C90067C275B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31DDD4CB-ABCF-47B9-9B2B-C90067C275B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31DDD4CB-ABCF-47B9-9B2B-C90067C275B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31DDD4CB-ABCF-47B9-9B2B-C90067C275B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866BA881-AC5D-4DE9-942F-307D12080E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866BA881-AC5D-4DE9-942F-307D12080E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866BA881-AC5D-4DE9-942F-307D12080E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866BA881-AC5D-4DE9-942F-307D12080E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B100872B-51D0-47A5-8285-69E90F569A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B100872B-51D0-47A5-8285-69E90F569A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B100872B-51D0-47A5-8285-69E90F569A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B100872B-51D0-47A5-8285-69E90F569A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972B9C6A-D996-4931-85BA-428981FA2B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972B9C6A-D996-4931-85BA-428981FA2B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972B9C6A-D996-4931-85BA-428981FA2B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972B9C6A-D996-4931-85BA-428981FA2B2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{EC818C2B-4545-4662-8253-B907CBCE9E3A} = {9180B376-4589-404D-A2B1-58EE560C820B}
-		{C64F5AA3-D614-48FE-89CC-41379B807773} = {3C09BA75-6222-486C-A2C1-FBA5333742E7}
-		{31DDD4CB-ABCF-47B9-9B2B-C90067C275B7} = {FD500C4A-D76F-47BD-9EAA-FD5A418DB43A}
-		{5A7FE7DA-CB68-4F85-9D26-A7416FF5FAB2} = {FD500C4A-D76F-47BD-9EAA-FD5A418DB43A}
+		{866BA881-AC5D-4DE9-942F-307D12080E6F} = {9180B376-4589-404D-A2B1-58EE560C820B}
+		{B100872B-51D0-47A5-8285-69E90F569A7C} = {FD500C4A-D76F-47BD-9EAA-FD5A418DB43A}
+		{972B9C6A-D996-4931-85BA-428981FA2B2D} = {3C09BA75-6222-486C-A2C1-FBA5333742E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45

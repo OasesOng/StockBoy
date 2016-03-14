@@ -3,6 +3,8 @@
 Primary style
 
 -------------------------------- */
+/*¤¤¤å-«ä·½Åé*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,13 +19,14 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family:  "Source Sans Pro" , 'Noto Sans TC', sans-serif;
   color: #e84a64;
   background-color: #E4F1FE;
 }
 
 a {
-  font-family: "Source Sans Pro", sans-serif;
+
+  font-family: "Source Sans Pro", sans-serif , 'Noto Sans TC', sans-serif;
   color: #e84a64;
   text-decoration: none;
 }

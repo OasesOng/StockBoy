@@ -136,9 +136,9 @@
 
         <nav id="cd-main-nav">
             <ul>
-                <li>@Html.ActionLink(" StockBoy", "Index", "Home") </li>
-                <li>@Html.ActionLink(" Article", "Index", "Article")</li>
-                <li>@Html.ActionLink(" About", "About", "Home")</li>
+                <li><a href="@Url.Action("Index", "Home")"><i class="fa fa-fort-awesome"></i> 個人StockBoy</a></li>
+                <li><a href="@Url.Action("Index", "Article")"><i class="fa fa-rss"></i> Article</a></li>
+                <li><a href="@Url.Action("About", "Home")"><i class="fa fa-user"></i>  About</a></li>
             </ul>
         </nav>
     </div>

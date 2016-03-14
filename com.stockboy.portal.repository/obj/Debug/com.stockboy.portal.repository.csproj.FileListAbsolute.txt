@@ -1,0 +1,14 @@
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\com.stockboy.portal.repository.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\com.stockboy.portal.repository.pdb
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\com.stockboy.portal.viewmodel.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\Dapper.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\com.stockboy.portal.viewmodel.pdb
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\Dapper.pdb
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\Dapper.xml
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\obj\Debug\com.stockboy.portal.repository.csprojResolveAssemblyReference.cache
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\obj\Debug\com.stockboy.portal.repository.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.repository\obj\Debug\com.stockboy.portal.repository.pdb

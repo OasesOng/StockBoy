@@ -1,28 +1,35 @@
-﻿using StockBoy.Services;
-using StockBoy.Models.ViewModel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using com.stockboy.portal.service;
+using com.stockboy.portal.viewmodel;
 
 namespace StockBoy.Controllers
 {
     public class ArticleController : Controller
     {
-        
+        ArticleService articleService;
+
+        public ArticleController()
+        {
+            articleService = new ArticleService();
+        }
+
 
         // GET: Article
         public ActionResult Index()
         {
-           
-            return View();
+            ArticleCriteriaViewModel criteria = new ArticleCriteriaViewModel();
+            IEnumerable<ArticleViewModel> list = articleService.FetchArticleByCriteria(criteria);
+            return View(list.ToList());
         }
 
         public ActionResult Article(Decimal? id)
         {
-            ArticleViewModel article = new ArticleViewModel();
-            article.Article_id = id;
+           // ArticleViewModel article = new ArticleViewModel();
+           // article.Article_id = id;
 
             return View();
         }
