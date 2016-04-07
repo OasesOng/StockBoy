@@ -1,0 +1,24 @@
+﻿@using System;
+@using System.Web.Mvc
+@using System.Web.Mvc.Html
+
+
+@functions{
+/// <summary>
+/// Google like
+/// </summary>
+}
+@helper  GoogleLike()
+{
+
+var url = new System.Web.Mvc.UrlHelper(Context.Request.RequestContext);
+var str = Context.Request.RawUrl;
+    <!-- 將這個標記放在標頭中，或放在內文結尾標記前面。 -->
+    <script src="https://apis.google.com/js/platform.js" async defer>
+        { lang: 'zh-TW' }
+    </script>
+    @*annotation*@
+    @*none/bubble/inline*@
+    <!-- 在您要顯示「+1 按鈕」的位置放上這個標記。 -->
+    <div class="g-plusone" data-size="medium" data-annotation="none" @*data-width="300"*@></div><g:plus action="share" annotation="none"></g:plus>
+}

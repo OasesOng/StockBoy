@@ -1,0 +1,5 @@
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.domain\bin\Debug\com.stockboy.portal.domain.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.domain\bin\Debug\com.stockboy.portal.domain.pdb
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.domain\obj\Debug\com.stockboy.portal.domain.csprojResolveAssemblyReference.cache
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.domain\obj\Debug\com.stockboy.portal.domain.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.domain\obj\Debug\com.stockboy.portal.domain.pdb

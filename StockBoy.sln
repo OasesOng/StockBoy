@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.viewmod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.service", "com.stockboy.portal.service\com.stockboy.portal.service.csproj", "{972B9C6A-D996-4931-85BA-428981FA2B2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.stockboy.portal.domain", "com.stockboy.portal.domain\com.stockboy.portal.domain.csproj", "{9D3260E2-E410-4E9E-9B85-2A21227509E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{972B9C6A-D996-4931-85BA-428981FA2B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{972B9C6A-D996-4931-85BA-428981FA2B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{972B9C6A-D996-4931-85BA-428981FA2B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3260E2-E410-4E9E-9B85-2A21227509E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3260E2-E410-4E9E-9B85-2A21227509E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3260E2-E410-4E9E-9B85-2A21227509E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3260E2-E410-4E9E-9B85-2A21227509E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{866BA881-AC5D-4DE9-942F-307D12080E6F} = {9180B376-4589-404D-A2B1-58EE560C820B}
 		{B100872B-51D0-47A5-8285-69E90F569A7C} = {FD500C4A-D76F-47BD-9EAA-FD5A418DB43A}
 		{972B9C6A-D996-4931-85BA-428981FA2B2D} = {3C09BA75-6222-486C-A2C1-FBA5333742E7}
+		{9D3260E2-E410-4E9E-9B85-2A21227509E6} = {FD500C4A-D76F-47BD-9EAA-FD5A418DB43A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45

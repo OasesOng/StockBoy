@@ -55,11 +55,16 @@
     <Compile Include="ArticleRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="utility\BaseRepository.cs" />
+    <Compile Include="utility\CashFlowRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\com.stockboy.portal.domain\com.stockboy.portal.domain.csproj">
+      <Project>{9d3260e2-e410-4e9e-9b85-2a21227509e6}</Project>
+      <Name>com.stockboy.portal.domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\com.stockboy.portal.viewmodel\com.stockboy.portal.viewmodel.csproj">
       <Project>{b100872b-51d0-47a5-8285-69e90f569a7c}</Project>
       <Name>com.stockboy.portal.viewmodel</Name>

@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+<script src="~/Content/js/player.js"></script>
+<script src="~/Content/js/jquery-2.1.1.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.js"></script>
+<link rel="stylesheet" href="~/Content/css/player.css"> <!-- CSS reset -->
+
+<h2>Player</h2>
+
+
+<div>
+    <main>
+        <div class="player">
+            <div class="record">
+                <div class="label">
+                    <h2>fruitloop</h2>
+                    <h3></h3>
+                </div>
+                <div class="spindle"></div>
+            </div>
+            <div class="arm-container">
+                <div class="knob weight bottom"></div>
+                <div class="arm"></div>
+                <div class="knob weight top">
+                    <button class="play">
+                        <div class="tooltip">click on this</div>
+                    </button>
+                </div>
+            </div>
+            <div class="speaker">
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+                <div class="hole"></div>
+            </div>
+            <div class="knob volume bottom">
+                <div class="down"></div>
+                <div class="up"></div>
+            </div>
+            <div class="knob volume top"></div>
+        </div>
+    </main>
+</div>

@@ -14,3 +14,5 @@ C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.po
 C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\obj\Debug\com.stockboy.portal.service.csprojResolveAssemblyReference.cache
 C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\obj\Debug\com.stockboy.portal.service.dll
 C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\obj\Debug\com.stockboy.portal.service.pdb
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\com.stockboy.portal.domain.dll
+C:\Users\b0501111\Documents\Visual Studio 2015\Projects\StockBoy\com.stockboy.portal.service\bin\Debug\com.stockboy.portal.domain.pdb

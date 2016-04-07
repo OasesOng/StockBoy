@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\com.stockboy.portal.domain\com.stockboy.portal.domain.csproj">
+      <Project>{9d3260e2-e410-4e9e-9b85-2a21227509e6}</Project>
+      <Name>com.stockboy.portal.domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\com.stockboy.portal.repository\com.stockboy.portal.repository.csproj">
       <Project>{866ba881-ac5d-4de9-942f-307d12080e6f}</Project>
       <Name>com.stockboy.portal.repository</Name>

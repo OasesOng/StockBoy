@@ -34,8 +34,5 @@ namespace StockBoy.Controllers
             return View();
         }
 
-
-
-
     }
 }

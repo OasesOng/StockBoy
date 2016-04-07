@@ -32,5 +32,10 @@ namespace com.stockboy.portal.service
             return list;
         }
 
+        public string FetchArticleByGuid(string Guid)
+        {
+            var result = articleRepo.FetchAllPayIDByGuid(Guid);
+            return result;
+        }
     }
 }

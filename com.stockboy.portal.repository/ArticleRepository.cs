@@ -79,6 +79,18 @@ namespace com.stockboy.portal.repository
             return result;
         }
 
+        /// <summary>
+        /// 取得某筆
+        /// </summary>
+        /// <param name="Guid"></param>
+        /// <returns></returns>
+        public string FetchAllPayIDByGuid(string Guid)
+        {
+            string baseSelectQuery = @" SELECT top 1 O_id FROM Article where [Guid]= @Guid  ";
 
+            //Execute
+            string result = Db.CreateConnection().Query<string>(baseSelectQuery, new { Guid = Guid }).Single();//查詢 語法
+            return result;
+        }
     }
 }
